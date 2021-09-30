@@ -1,9 +1,10 @@
-# 실수 2개(f1, f2)를 입력받아
-# f1 을 f2 로 나눈 값을 출력해보자. 이 때 소숫점 넷째자리에서 반올림하여 무조건 소숫점 셋째 자리까지 출력한다.
-a, b, c = input().split()
-a = int(a)
-b = int(b)
-c = int(c)
-hap = a+b+c
-avg = hap/3
-print(hap, format(avg, ".2f"))
+# 필요한 저장 공간을 MB 단위로 바꾸어 출력한다.
+# 단, 소수점 셋째 자리에서 반올림하여 둘째 자리까지 출력한다. 
+a,b,c=input().split(' ')
+a=int(a)
+b=int(b)
+c=int(c)
+total = (((a*b*c)/8)/1024)/1024
+total = round(total,2)
+print('{:.2f} MB'.format(total))
+
