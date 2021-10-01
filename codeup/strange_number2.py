@@ -2,8 +2,7 @@ a= int(input())
 b= input().split()
 c=[]
 for i in range(a):
-    b.append(int(b[i]))
-
-b.reverse()
+    c.append(int(b[i]))
+c.reverse()
 for i in range(a):
-    print(b[i],end=' ')
+    print(c[i],end=' ')
