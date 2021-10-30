@@ -18,7 +18,7 @@ while (True):
     elif ant[x+1][y]==2:
         ant[x+1][y]=9
         break
-    elif ant[x][y+1]==2:
+    elif ant[x][y+1]==2: 
         ant[x][y+1]=9
         break
     elif ant[x][y+1]!=0 and ant[x+1][y]!=0:
