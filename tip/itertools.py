@@ -7,7 +7,7 @@ data = list(permutations(data, 2))
 print(data)
 
 from itertools import product
-# 만들수있는 모은 순열 출력 (숫자로 개수 지정가능, 중복 허용)
+# 만들수있는 모든 순열 출력 (숫자로 개수 지정가능, 중복 허용)
 data = ['A', 'B', 'C']
 data = list(product(data, repeat=2))
 print(data)
