@@ -9,7 +9,7 @@ move_type = [(-2, 1), (-2, -1), (1, -2), (-1, -2),
 for move in move_type:
     plus_row = row + move[0]
     plus_column = column + move[1]
-    # 이렇게도 가능한데 밑에 있는게 더 깔끔
+    # 이렇게도 가능한데 밑에 있는게 더 깔끔하다
     # check +=1
     # if plus_row>8 or plus_row<1:
     #     plus_row = plus_row - move[0]
