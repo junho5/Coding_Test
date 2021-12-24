@@ -3,4 +3,4 @@
 ## 2. greedy : 그리디알고리즘 ##
 ## 3. bfs : bfs알고리즘 ##
 ## 4. implement ##
-## 5. sort ##
+## 5. sort 알고리즘 ##
