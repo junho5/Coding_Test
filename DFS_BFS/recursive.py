@@ -2,7 +2,7 @@ def factorial_iteration(i):
     result = 1 
     for i in range(1,i+1):
         result *= i
-        # print(f"{i}번쨰 값은 {result} 입니다.")s
+        # print(f"{i}번쨰 값은 {result} 입니다.")
     return result
     
 print(factorial_iteration(5))
