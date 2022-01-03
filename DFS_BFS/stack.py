@@ -4,6 +4,9 @@ stack.append(3)
 stack.append(4)
 stack.append(1)
 stack.append(6)
+stack.append(10)
+stack.append(88)
+
 stack.pop()
 
 print(stack) # 하단 부터 출력 
