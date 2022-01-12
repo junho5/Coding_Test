@@ -3,7 +3,6 @@ stack = []
 stack.append(3)
 stack.append(4)
 stack.append(1)
-stack.append(7)
 stack.append(10)
 stack.append(23)
 
