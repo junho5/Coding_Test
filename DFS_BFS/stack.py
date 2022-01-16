@@ -4,6 +4,7 @@ stack.append(3)
 stack.append(4)
 stack.append(10)
 stack.append(23)
+stack.append(1)
 
 
 stack.pop()
