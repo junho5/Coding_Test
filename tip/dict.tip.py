@@ -9,24 +9,24 @@ b['melon'] = '멜론'
 
 print(a['사과'])
 print(a[2])
-print('----------------------')
+print('-----------------------')
 print(b['오렌지'])
 print(b.keys())
-print('----------------------')
+print('-----------------------')
 for i in a.keys():
     print(i)
-print('----------------------')
+print('-----------------------')
 for i in a.values():
     print(i)
-print('----------------------')
+print('-----------------------')
 print(a.values())
 print(a.keys())
 print(a.items())
-print('----------------------')
+print('-----------------------')
 
 a.clear()  # 다 지우기
 print(b['melon'])
 print(b.get('melon'))
-print('----------------------')
+print('-----------------------')
 print('melon' in b)
-print('----------------------')
+print('-----------------------')
