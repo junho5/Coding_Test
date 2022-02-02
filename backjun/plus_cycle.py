@@ -4,8 +4,10 @@ cnt = 0
 
 while(True):
     if int(input_num)<10:
-        input_num = int(input_num)*10
+        input_num = int(input_num)*11
         cnt +=1
+        print(input_num)
+        break
     else:
         second = (int(input_num[0])+int(input_num[1]))%10
         first = input_num[1]
