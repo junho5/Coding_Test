@@ -1,6 +1,17 @@
-import sys
+input_num = input()
+store = input_num
+cnt = 0
 
-x= int(input())
-for i in range(x):
-    a,b = map(int,sys.stdin.readline().split(' '))
-    print(a+b)
+while(True):
+    if int(input_num)<10:
+        input_num = int(input_num)*10
+        cnt +=1
+    else:
+        second = (int(input_num[0])+int(input_num[1]))%10
+        first = input_num[1]
+        input_num = first + str(second)
+        cnt+=1
+        print(input_num)
+    if store == input_num:
+        break
+print(cnt)

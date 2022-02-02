@@ -1,19 +1,17 @@
 input_num = input()
-store = input_num
+store = int(input_num)
 cnt = 0
 
 while(True):
     if int(input_num)<10:
         input_num = int(input_num)*11
         cnt +=1
-        print(input_num)
-        break
+        input_num = str(input_num)
     else:
         second = (int(input_num[0])+int(input_num[1]))%10
-        first = input_num[1]
-        input_num = first + str(second)
+        first = int(input_num[1])
+        input_num = str(first) + str(second)
         cnt+=1
-        print(input_num)
-    if store == input_num:
+    if store == int(input_num):
         break
 print(cnt)
