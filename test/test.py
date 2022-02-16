@@ -1,4 +1,2 @@
-b = int(input())
-a = list(map(int,input().split(' ')))
-
-print(f'{min(a)} {max(a)}')
+for i in range(97,123):
+    print(chr(i))
