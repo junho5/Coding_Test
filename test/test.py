@@ -1,2 +1,3 @@
-for i in range(97,123):
-    print(chr(i))
+a=[1,3,3,4]
+
+print(a.index(3))
