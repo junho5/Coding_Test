@@ -1,8 +1,3 @@
-a=[]
+import math
 
-a.append(1)
-a.append(1)
-a.append(1)
-a.append(1)
-
-print(a)
+print(math.sqrt(16))
