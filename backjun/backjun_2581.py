@@ -1,3 +1,5 @@
+# 소수판별
+
 m = int(input())
 n = int(input())
 

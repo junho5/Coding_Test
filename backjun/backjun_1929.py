@@ -1,3 +1,4 @@
+# 소수 구하기 
 import math
 
 # n, m = map(int, input().split())

@@ -1,3 +1,5 @@
+# 소수 개수 
+
 n = int(input())
 
 num = map(int,input().split())

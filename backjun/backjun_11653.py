@@ -1,33 +1,11 @@
-import math
+# 소인수분해
 
-n, m = map(int, input().split())
-sqrt_m = int(math.sqrt(m))
-result = [True] * (m+1)
-for i in range(2,sqrt_m+1):
-    if result[i] == True:
-        for j in range(i+i,m+1,i):
-            result[j] = False
-            
-# print([i for i in range(2,m+1) if result[i]==True and n<=i])
-
-for i in range(n,m+1):
-    if result[i] == True and i>1:
-        print(i)
+n = int(input())
+num = 2
+while (n!=1):
+    if n % num == 0:
+        print(num)
+        n = n//num
+    else:
+        num +=1
         
-        
-
-# n, m = map(int, input().split())
-
-# def isprime(n, m):
-#   m += 1                            # for문 사용을 위한 m += 1
-#   prime = [True] * m                # n개의 [True]가 있는 리스트 생성
-#   for i in range(2, int(m**0.5)+1): # n의 제곱근까지만 검사
-#     if prime[i]:                    # prime[i]가 True일때
-#       for j in range(2*i, m, i):    # prime 내 i의 배수들을 False로 변환
-#         prime[j] = False
-
-#   for i in range(n, m):
-#     if i > 1 and prime[i] == True:  # 1 이상이면서 남은 소수들을 출력
-#       print(i)
-
-# isprime(n, m)
