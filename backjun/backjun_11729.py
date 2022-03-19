@@ -8,4 +8,4 @@ def hanoi(n,start,end,temp):
 
 n = int(input())
 print(2**n-1)    
-hanoi(n,1,3,2)
+# hanoi(n,1,3,2)
